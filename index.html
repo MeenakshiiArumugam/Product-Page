@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul class="menu">
+                
+                <li><a href="#"><button class="btn">Home</a></button></li>
+                <li><a href="#"><button class="btn">Shop</a></button></li>
+                <li><a href="#"><button class="btn">About</a></button></li>
+                <li><a href="#"><button class="btn">Contact</a></button></li>
+                <li class="meen"><button class="btn1">Sign In / Sign Up</button></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="images/img1.jpg" alt="Kitchen Product 1">
+            <h2>Silicone Utensils</h2>
+            <p>$49.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="images/img2.jpeg" alt="Kitchen Product 2">
+            <h2>Rice Strainer</h2>
+            <p>$9.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="images/img3.jpg" alt="Kitchen Product 3">
+            <h2>Themed Pots</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="images/img4.jpg" alt="Kitchen Product 1">
+            <h2>Wooden Spatula</h2>
+            <p>$49.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 5 -->
+        <div class="product">
+            <img src="images/img5.jpeg" alt="Kitchen Product 2">
+            <h2>Storage Corner</h2>
+            <p>$9.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 6 -->
+        <div class="product">
+            <img src="images/img6.jpeg" alt="Kitchen Product 3">
+            <h2>Spices Stand</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 7 -->
+        <div class="product">
+            <img src="images/img7.jpeg" alt="Kitchen Product 3">
+            <h2>Momos Maker</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 8 -->
+        <div class="product">
+            <img src="images/img8.jpeg" alt="Kitchen Product 1">
+            <h2>Siccors Chopper</h2>
+            <p>$49.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 9 -->
+        <div class="product">
+            <img src="images/img1.jpg" alt="Kitchen Product 2">
+            <h2>Silicone Utensils</h2>
+            <p>$9.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 10 -->
+        <div class="product">
+            <img src="images/img2.jpeg" alt="Kitchen Product 3">
+            <h2>Strainer</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 11 -->
+        <div class="product">
+            <img src="images/img3.jpg" alt="Kitchen Product 3">
+            <h2>Pots and Pans</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 12 -->
+        <div class="product">
+            <img src="images/img4.jpg" alt="Kitchen Product 1">
+            <h2>Spoons</h2>
+            <p>$49.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 13 -->
+        <div class="product">
+            <img src="images/img5.jpeg" alt="Kitchen Product 2">
+            <h2>Trays</h2>
+            <p>$9.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        <!-- Product 14 -->
+        <div class="product">
+            <img src="images/img6.jpeg" alt="Kitchen Product 3">
+            <h2>Non-stick Pans</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 15 -->
+        <div class="product">
+            <img src="images/img7.jpeg" alt="Kitchen Product 3">
+            <h2>Rollers</h2>
+            <p>$19.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        <!-- Product 16 -->
+        <div class="product">
+            <img src="images/img8.jpeg" alt="Kitchen Product 1">
+            <h2>Cutters</h2>
+            <p>$49.99</p>
+            <div class="actions">
+                <button class="add-to-cart-btn" onclick="toggleAddToCart(this)">
+                    <span class="button-text">Add to Cart</span>
+                    <span class="add-to-cart-icon">&#10003;</span>
+                </button>
+                <span class="like-icon" onclick="toggleLike(this)">&#10084;</span>
+            </div>
+        </div>
+        
+        
+        <!-- Add more products as needed -->
+    </div>
+    <script>
+        function toggleAddToCart(button) {
+    button.classList.toggle('added');
+    var tickIcon = button.nextElementSibling; // Get the tick icon next to the button
+    tickIcon.style.display = button.classList.contains('added') ? 'inline-block' : 'none'; // Show the tick icon if button is added to cart
+    if (button.classList.contains('added')) {
+        button.innerHTML = 'Added to Cart';
+    } else {
+        button.innerHTML = 'Add to Cart';
+    }
+}
+
+function toggleLike(element) {
+    element.classList.toggle('liked');
+}
+    </script>
+</body>
+</html>

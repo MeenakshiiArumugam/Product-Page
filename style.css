@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg.png');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 0;
+}
+header {
+  background-color: #fdf0d5;
+  padding: 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul.menu li {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.meen {
+  right: 20 px;
+}
+/* Product Styles */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.product {
+  width: calc(22.44% - 40px); /* Adjust width to fit three products in a row */
+  margin: 20px;
+  padding: 60px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #454444;
+}
+
+.product p {
+  font-size: 16px;
+  color: #909090;
+  margin-top: 5px;
+}
+
+.product:hover {
+  background-color: #fdf0d5;
+  font-family: "Poppins", sans-serif;
+}
+.product:hover a {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.actions {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.add-to-cart-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.add-to-cart-btn:hover {
+  background-color: #004502;
+}
+.add-to-cart-icon {
+  display: none; /* Initially hide the tick icon */
+  font-size: 24px;
+  color: #4CAF50; /* Green color for the tick icon */
+  margin-right: 5px;
+}
+.like-icon {
+  font-size: 24px;
+  color: #fff; /* Initial color */
+  cursor: pointer;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; /* Add a black outline */
+}
+
+.like-icon:hover {
+  color: #f44336; /* Red color on hover */
+}
+
+.liked {
+  color: #f44336 !important; /* Red color when liked */
+}
+
+.btn {
+  width: 89px;
+  background-color: #fdf0d5;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+  background-color: #003049;
+  font-family: "Poppins", sans-serif;
+
+}
+.btn:hover a {
+  width: 89px;
+  
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  
+}
+.btn1 {
+  width: 150px;
+  background-color: #da9200;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  position: right;
+}
+
+.btn1:hover {
+  background-color: #f8bd58;
+  font-family: "Poppins", sans-serif;
+
+}
+.btn1:hover a {
+  width: 89px;
+  
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 15px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  
+}
